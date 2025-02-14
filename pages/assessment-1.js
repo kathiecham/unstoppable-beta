@@ -32,8 +32,14 @@ const Assessment1 = (props) => {
         >
           <div>
             <div className="assessment1-container14">
+<<<<<<< HEAD
               <Script
                 html={`<script>
+=======
+              <React.Fragment>
+                <React.Fragment>
+                  <Script>{`
+>>>>>>> 76e47d6 (Updated navigation links)
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("form");
     const nextButton = document.getElementById("next-button-id"); // Change to actual ID
@@ -49,10 +55,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("change", checkCompletion);
 });
+<<<<<<< HEAD
 </script>
 
 `}
               ></Script>
+=======
+`}</Script>
+                </React.Fragment>
+              </React.Fragment>
+>>>>>>> 76e47d6 (Updated navigation links)
             </div>
           </div>
           <div className="assessment1-container15">
@@ -2058,9 +2070,15 @@ document.addEventListener("DOMContentLoaded", function () {
             .assessment1-text43 {
               width: 425px;
               font-family: Montserrat;
+<<<<<<< HEAD
               margin-left: 129px;
               padding-top: var(--dl-space-space-twounits);
               margin-right: 0px;
+=======
+              margin-left: 32px;
+              padding-top: var(--dl-space-space-twounits);
+              margin-right: 32px;
+>>>>>>> 76e47d6 (Updated navigation links)
             }
             .assessment1-text44 {
               margin-right: 36px;

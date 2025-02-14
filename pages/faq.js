@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import Link from 'next/link'
+>>>>>>> 76e47d6 (Updated navigation links)
 import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
@@ -19,10 +23,23 @@ const FAQ = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="faq-desktop-menu">
             <nav className="faq-links1">
+<<<<<<< HEAD
               <span>Home</span>
               <span className="faq-text11">How it Works</span>
               <span className="faq-text12">FAQ</span>
               <span className="faq-text13">Sign Up</span>
+=======
+              <Link href="/">
+                <a className="faq-link1">Home</a>
+              </Link>
+              <Link href="/how-it-works">
+                <a className="faq-link2">How it Works</a>
+              </Link>
+              <span className="faq-text10">FAQ</span>
+              <Link href="/sign-up-process">
+                <a className="faq-link3">Sign Up</a>
+              </Link>
+>>>>>>> 76e47d6 (Updated navigation links)
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="faq-burger-menu">
@@ -45,11 +62,19 @@ const FAQ = (props) => {
                 </div>
               </div>
               <nav className="faq-links2">
+<<<<<<< HEAD
                 <span className="faq-text14">About</span>
                 <span className="faq-text15">Features</span>
                 <span className="faq-text16">Pricing</span>
                 <span className="faq-text17">Team</span>
                 <span className="faq-text18">Blog</span>
+=======
+                <span className="faq-text11">About</span>
+                <span className="faq-text12">Features</span>
+                <span className="faq-text13">Pricing</span>
+                <span className="faq-text14">Team</span>
+                <span className="faq-text15">Blog</span>
+>>>>>>> 76e47d6 (Updated navigation links)
               </nav>
               <div className="faq-buttons">
                 <button className="faq-login button">Login</button>
@@ -70,10 +95,17 @@ const FAQ = (props) => {
           </div>
         </header>
         <div className="faq-container2">
+<<<<<<< HEAD
           <span className="faq-text19">
             <span className="faq-text20">What do You</span>
             <br className="faq-text21"></br>
             <span className="faq-text22">Want to Know?</span>
+=======
+          <span className="faq-text16">
+            <span className="faq-text17">What do You</span>
+            <br className="faq-text18"></br>
+            <span className="faq-text19">Want to Know?</span>
+>>>>>>> 76e47d6 (Updated navigation links)
             <br></br>
           </span>
         </div>
@@ -85,7 +117,11 @@ const FAQ = (props) => {
               className="faq-trigger1"
             >
               <summary data-thq="accordion-summary" className="faq-summary1">
+<<<<<<< HEAD
                 <span className="faq-text24">
+=======
+                <span className="faq-text21">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: I’m not sure this will work for me
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container1">
@@ -114,7 +150,11 @@ const FAQ = (props) => {
               className="faq-trigger2"
             >
               <summary data-thq="accordion-summary" className="faq-summary2">
+<<<<<<< HEAD
                 <span className="faq-text26">
+=======
+                <span className="faq-text23">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: I don’t have a lot of time.
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container2">
@@ -142,7 +182,11 @@ const FAQ = (props) => {
               className="faq-trigger3"
             >
               <summary data-thq="accordion-summary" className="faq-summary3">
+<<<<<<< HEAD
                 <span className="faq-text28">
+=======
+                <span className="faq-text25">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: I’ve tried other programs and they didn’t work.
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container3">
@@ -172,7 +216,11 @@ const FAQ = (props) => {
               className="faq-trigger4"
             >
               <summary data-thq="accordion-summary" className="faq-summary4">
+<<<<<<< HEAD
                 <span className="faq-text30">
+=======
+                <span className="faq-text27">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: What if I get stuck and can’t move forward?
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container4">
@@ -201,7 +249,11 @@ const FAQ = (props) => {
               className="faq-trigger5"
             >
               <summary data-thq="accordion-summary" className="faq-summary5">
+<<<<<<< HEAD
                 <span className="faq-text32">
+=======
+                <span className="faq-text29">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: I’m worried about committing to something new.
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container5">
@@ -230,7 +282,11 @@ const FAQ = (props) => {
               className="faq-trigger6"
             >
               <summary data-thq="accordion-summary" className="faq-summary6">
+<<<<<<< HEAD
                 <span className="faq-text34">
+=======
+                <span className="faq-text31">
+>>>>>>> 76e47d6 (Updated navigation links)
                   Q: Is this program suitable for someone like me?
                 </span>
                 <div data-thq="accordion-icon" className="faq-icon-container6">
@@ -292,6 +348,7 @@ const FAQ = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
+<<<<<<< HEAD
           .faq-text11 {
             margin-left: var(--dl-space-space-twounits);
           }
@@ -300,6 +357,21 @@ const FAQ = (props) => {
           }
           .faq-text13 {
             margin-left: var(--dl-space-space-twounits);
+=======
+          .faq-link1 {
+            text-decoration: none;
+          }
+          .faq-link2 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .faq-text10 {
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .faq-link3 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           .faq-burger-menu {
             display: none;
@@ -352,12 +424,25 @@ const FAQ = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+<<<<<<< HEAD
+=======
+          .faq-text11 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .faq-text12 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .faq-text13 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+>>>>>>> 76e47d6 (Updated navigation links)
           .faq-text14 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .faq-text15 {
             margin-bottom: var(--dl-space-space-unit);
           }
+<<<<<<< HEAD
           .faq-text16 {
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -367,6 +452,8 @@ const FAQ = (props) => {
           .faq-text18 {
             margin-bottom: var(--dl-space-space-unit);
           }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           .faq-buttons {
             width: 100%;
             display: flex;
@@ -398,23 +485,39 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: center;
           }
+<<<<<<< HEAD
           .faq-text19 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
           .faq-text20 {
+=======
+          .faq-text16 {
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .faq-text17 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 42px;
             font-style: normal;
             font-family: 'Montserrat';
             font-weight: 600;
           }
+<<<<<<< HEAD
           .faq-text21 {
+=======
+          .faq-text18 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 42px;
             font-style: normal;
             font-family: 'Montserrat';
             font-weight: 600;
           }
+<<<<<<< HEAD
           .faq-text22 {
+=======
+          .faq-text19 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 42px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -448,7 +551,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text24 {
+=======
+          .faq-text21 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -484,7 +591,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text26 {
+=======
+          .faq-text23 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -520,7 +631,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text28 {
+=======
+          .faq-text25 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -556,7 +671,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text30 {
+=======
+          .faq-text27 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -592,7 +711,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text32 {
+=======
+          .faq-text29 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -628,7 +751,11 @@ const FAQ = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+<<<<<<< HEAD
           .faq-text34 {
+=======
+          .faq-text31 {
+>>>>>>> 76e47d6 (Updated navigation links)
             font-size: 18px;
             font-style: normal;
             font-family: 'Montserrat';
@@ -658,13 +785,30 @@ const FAQ = (props) => {
               align-items: center;
               justify-content: center;
             }
+<<<<<<< HEAD
             .faq-text14 {
+=======
+            .faq-text11 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .faq-text12 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .faq-text13 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .faq-text14 {
+              margin-left: 0;
+>>>>>>> 76e47d6 (Updated navigation links)
               margin-bottom: var(--dl-space-space-unit);
             }
             .faq-text15 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+<<<<<<< HEAD
             .faq-text16 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
@@ -678,18 +822,29 @@ const FAQ = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
             .faq-text24 {
+=======
+            .faq-text21 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
               font-weight: 600;
             }
+<<<<<<< HEAD
             .faq-text26 {
+=======
+            .faq-text23 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
               font-weight: 600;
             }
+<<<<<<< HEAD
             .faq-text32 {
+=======
+            .faq-text29 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
@@ -710,28 +865,47 @@ const FAQ = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
+<<<<<<< HEAD
             .faq-text24 {
+=======
+            .faq-text21 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
               font-weight: 600;
             }
+<<<<<<< HEAD
             .faq-text26 {
+=======
+            .faq-text23 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
               font-weight: 600;
             }
+<<<<<<< HEAD
             .faq-text28 {
+=======
+            .faq-text25 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;
               font-weight: 600;
             }
+<<<<<<< HEAD
             .faq-text30 {
               font-size: 18px;
             }
             .faq-text32 {
+=======
+            .faq-text27 {
+              font-size: 18px;
+            }
+            .faq-text29 {
+>>>>>>> 76e47d6 (Updated navigation links)
               font-size: 18px;
               font-style: normal;
               font-family: Montserrat;

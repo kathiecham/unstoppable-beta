@@ -1646,6 +1646,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text12 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox10 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox11 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox12 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox13 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox14 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text15 {
               width: 425px;
               font-family: Montserrat;
@@ -1653,6 +1675,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text16 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox15 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox16 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox17 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox18 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox19 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text19 {
               width: 425px;
               font-family: Montserrat;
@@ -1660,6 +1704,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text20 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox20 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox21 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox22 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox23 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox24 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text23 {
               width: 425px;
               font-family: Montserrat;
@@ -1667,6 +1733,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text24 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox25 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox26 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox27 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox28 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox29 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text27 {
               width: 425px;
               font-family: Montserrat;
@@ -1674,6 +1762,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text28 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox30 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox31 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox32 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox33 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox34 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text31 {
               width: 425px;
               font-family: Montserrat;
@@ -1681,6 +1791,28 @@ const Assessment4 = (props) => {
               padding-top: var(--dl-space-space-twounits);
               margin-right: 32px;
             }
+<<<<<<< HEAD
+=======
+            .assessment4-text32 {
+              margin-right: 36px;
+              padding-right: 0px;
+            }
+            .assessment4-checkbox35 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox36 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox37 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox38 {
+              margin-right: 36px;
+            }
+            .assessment4-checkbox39 {
+              margin-right: 36px;
+            }
+>>>>>>> 76e47d6 (Updated navigation links)
             .assessment4-text35 {
               width: 425px;
               font-family: Montserrat;

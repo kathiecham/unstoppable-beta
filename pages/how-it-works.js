@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import Link from 'next/link'
+>>>>>>> 76e47d6 (Updated navigation links)
 import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
@@ -22,10 +26,23 @@ const HowItWorks = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="how-it-works-desktop-menu">
             <nav className="how-it-works-links1">
+<<<<<<< HEAD
               <span>Home</span>
               <span className="how-it-works-text2">How it Works</span>
               <span className="how-it-works-text3">FAQ</span>
               <span className="how-it-works-text4">Sign Up</span>
+=======
+              <Link href="/">
+                <a className="how-it-works-link1">Home</a>
+              </Link>
+              <span className="how-it-works-text1">How it Works</span>
+              <Link href="/faq">
+                <a className="how-it-works-link2">FAQ</a>
+              </Link>
+              <Link href="/sign-up-process">
+                <a className="how-it-works-link3">Sign Up</a>
+              </Link>
+>>>>>>> 76e47d6 (Updated navigation links)
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="how-it-works-burger-menu">
@@ -51,11 +68,19 @@ const HowItWorks = (props) => {
                 </div>
               </div>
               <nav className="how-it-works-links2">
+<<<<<<< HEAD
                 <span className="how-it-works-text5">About</span>
                 <span className="how-it-works-text6">Features</span>
                 <span className="how-it-works-text7">Pricing</span>
                 <span className="how-it-works-text8">Team</span>
                 <span className="how-it-works-text9">Blog</span>
+=======
+                <span className="how-it-works-text2">About</span>
+                <span className="how-it-works-text3">Features</span>
+                <span className="how-it-works-text4">Pricing</span>
+                <span className="how-it-works-text5">Team</span>
+                <span className="how-it-works-text6">Blog</span>
+>>>>>>> 76e47d6 (Updated navigation links)
               </nav>
               <div className="how-it-works-buttons">
                 <button className="how-it-works-login button">Login</button>
@@ -122,6 +147,7 @@ const HowItWorks = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
+<<<<<<< HEAD
           .how-it-works-text2 {
             margin-left: var(--dl-space-space-twounits);
           }
@@ -130,6 +156,21 @@ const HowItWorks = (props) => {
           }
           .how-it-works-text4 {
             margin-left: var(--dl-space-space-twounits);
+=======
+          .how-it-works-link1 {
+            text-decoration: none;
+          }
+          .how-it-works-text1 {
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .how-it-works-link2 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .how-it-works-link3 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           .how-it-works-burger-menu {
             display: none;
@@ -182,12 +223,25 @@ const HowItWorks = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+<<<<<<< HEAD
+=======
+          .how-it-works-text2 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .how-it-works-text3 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .how-it-works-text4 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+>>>>>>> 76e47d6 (Updated navigation links)
           .how-it-works-text5 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .how-it-works-text6 {
             margin-bottom: var(--dl-space-space-unit);
           }
+<<<<<<< HEAD
           .how-it-works-text7 {
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -197,6 +251,8 @@ const HowItWorks = (props) => {
           .how-it-works-text9 {
             margin-bottom: var(--dl-space-space-unit);
           }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           .how-it-works-buttons {
             width: 100%;
             display: flex;
@@ -235,13 +291,30 @@ const HowItWorks = (props) => {
               align-items: center;
               justify-content: center;
             }
+<<<<<<< HEAD
             .how-it-works-text5 {
+=======
+            .how-it-works-text2 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .how-it-works-text3 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .how-it-works-text4 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .how-it-works-text5 {
+              margin-left: 0;
+>>>>>>> 76e47d6 (Updated navigation links)
               margin-bottom: var(--dl-space-space-unit);
             }
             .how-it-works-text6 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+<<<<<<< HEAD
             .how-it-works-text7 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
@@ -254,6 +327,8 @@ const HowItWorks = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           @media (max-width: 479px) {
             .how-it-works-navbar-interactive {

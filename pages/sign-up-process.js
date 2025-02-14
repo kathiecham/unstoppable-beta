@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import Link from 'next/link'
+>>>>>>> 76e47d6 (Updated navigation links)
 import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
@@ -25,10 +29,23 @@ const SignUpProcess = (props) => {
             className="sign-up-process-desktop-menu"
           >
             <nav className="sign-up-process-links1">
+<<<<<<< HEAD
               <span>Home</span>
               <span className="sign-up-process-text2">How it Works</span>
               <span className="sign-up-process-text3">FAQ</span>
               <span className="sign-up-process-text4">Sign Up</span>
+=======
+              <Link href="/">
+                <a className="sign-up-process-link1">Home</a>
+              </Link>
+              <Link href="/how-it-works">
+                <a className="sign-up-process-link2">How it Works</a>
+              </Link>
+              <Link href="/faq">
+                <a className="sign-up-process-link3">FAQ</a>
+              </Link>
+              <span className="sign-up-process-text1">Sign Up</span>
+>>>>>>> 76e47d6 (Updated navigation links)
             </nav>
           </div>
           <div
@@ -63,11 +80,19 @@ const SignUpProcess = (props) => {
                 </div>
               </div>
               <nav className="sign-up-process-links2">
+<<<<<<< HEAD
                 <span className="sign-up-process-text5">About</span>
                 <span className="sign-up-process-text6">Features</span>
                 <span className="sign-up-process-text7">Pricing</span>
                 <span className="sign-up-process-text8">Team</span>
                 <span className="sign-up-process-text9">Blog</span>
+=======
+                <span className="sign-up-process-text2">About</span>
+                <span className="sign-up-process-text3">Features</span>
+                <span className="sign-up-process-text4">Pricing</span>
+                <span className="sign-up-process-text5">Team</span>
+                <span className="sign-up-process-text6">Blog</span>
+>>>>>>> 76e47d6 (Updated navigation links)
               </nav>
               <div className="sign-up-process-buttons">
                 <button className="sign-up-process-login button">Login</button>
@@ -134,6 +159,7 @@ const SignUpProcess = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
+<<<<<<< HEAD
           .sign-up-process-text2 {
             margin-left: var(--dl-space-space-twounits);
           }
@@ -141,6 +167,20 @@ const SignUpProcess = (props) => {
             margin-left: var(--dl-space-space-twounits);
           }
           .sign-up-process-text4 {
+=======
+          .sign-up-process-link1 {
+            text-decoration: none;
+          }
+          .sign-up-process-link2 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .sign-up-process-link3 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .sign-up-process-text1 {
+>>>>>>> 76e47d6 (Updated navigation links)
             margin-left: var(--dl-space-space-twounits);
           }
           .sign-up-process-burger-menu {
@@ -194,12 +234,25 @@ const SignUpProcess = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+<<<<<<< HEAD
+=======
+          .sign-up-process-text2 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .sign-up-process-text3 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .sign-up-process-text4 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+>>>>>>> 76e47d6 (Updated navigation links)
           .sign-up-process-text5 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .sign-up-process-text6 {
             margin-bottom: var(--dl-space-space-unit);
           }
+<<<<<<< HEAD
           .sign-up-process-text7 {
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -209,6 +262,8 @@ const SignUpProcess = (props) => {
           .sign-up-process-text9 {
             margin-bottom: var(--dl-space-space-unit);
           }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           .sign-up-process-buttons {
             width: 100%;
             display: flex;
@@ -247,13 +302,30 @@ const SignUpProcess = (props) => {
               align-items: center;
               justify-content: center;
             }
+<<<<<<< HEAD
             .sign-up-process-text5 {
+=======
+            .sign-up-process-text2 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .sign-up-process-text3 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .sign-up-process-text4 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .sign-up-process-text5 {
+              margin-left: 0;
+>>>>>>> 76e47d6 (Updated navigation links)
               margin-bottom: var(--dl-space-space-unit);
             }
             .sign-up-process-text6 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+<<<<<<< HEAD
             .sign-up-process-text7 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
@@ -266,6 +338,8 @@ const SignUpProcess = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           @media (max-width: 479px) {
             .sign-up-process-navbar-interactive {

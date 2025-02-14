@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import Link from 'next/link'
+>>>>>>> 76e47d6 (Updated navigation links)
 import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
@@ -20,9 +24,21 @@ const Home = (props) => {
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links1">
               <span>Home</span>
+<<<<<<< HEAD
               <span className="home-text2">How it Works</span>
               <span className="home-text3">FAQ</span>
               <span className="home-text4">Sign Up</span>
+=======
+              <Link href="/how-it-works">
+                <a className="home-link1">How it Works</a>
+              </Link>
+              <Link href="/faq">
+                <a className="home-link2">FAQ</a>
+              </Link>
+              <Link href="/sign-up-process">
+                <a className="home-link3">Sign Up</a>
+              </Link>
+>>>>>>> 76e47d6 (Updated navigation links)
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -45,11 +61,19 @@ const Home = (props) => {
                 </div>
               </div>
               <nav className="home-links2">
+<<<<<<< HEAD
                 <span className="home-text5">About</span>
                 <span className="home-text6">Features</span>
                 <span className="home-text7">Pricing</span>
                 <span className="home-text8">Team</span>
                 <span className="home-text9">Blog</span>
+=======
+                <span className="home-text2">About</span>
+                <span className="home-text3">Features</span>
+                <span className="home-text4">Pricing</span>
+                <span className="home-text5">Team</span>
+                <span className="home-text6">Blog</span>
+>>>>>>> 76e47d6 (Updated navigation links)
               </nav>
               <div className="home-buttons">
                 <button className="home-login button">Login</button>
@@ -108,6 +132,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
+<<<<<<< HEAD
           .home-text2 {
             margin-left: var(--dl-space-space-twounits);
           }
@@ -116,6 +141,19 @@ const Home = (props) => {
           }
           .home-text4 {
             margin-left: var(--dl-space-space-twounits);
+=======
+          .home-link1 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .home-link2 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .home-link3 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           .home-burger-menu {
             display: none;
@@ -168,12 +206,25 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+<<<<<<< HEAD
+=======
+          .home-text2 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text3 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text4 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+>>>>>>> 76e47d6 (Updated navigation links)
           .home-text5 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text6 {
             margin-bottom: var(--dl-space-space-unit);
           }
+<<<<<<< HEAD
           .home-text7 {
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -183,6 +234,8 @@ const Home = (props) => {
           .home-text9 {
             margin-bottom: var(--dl-space-space-unit);
           }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           .home-buttons {
             width: 100%;
             display: flex;
@@ -221,13 +274,30 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
+<<<<<<< HEAD
             .home-text5 {
+=======
+            .home-text2 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text3 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text4 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text5 {
+              margin-left: 0;
+>>>>>>> 76e47d6 (Updated navigation links)
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-text6 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+<<<<<<< HEAD
             .home-text7 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
@@ -240,6 +310,8 @@ const Home = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+=======
+>>>>>>> 76e47d6 (Updated navigation links)
           }
           @media (max-width: 479px) {
             .home-navbar-interactive {

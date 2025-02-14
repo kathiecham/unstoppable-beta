@@ -132,11 +132,15 @@ const SelectAGroup = (props) => {
                   None of these available times work for me
               </span>
             </div>
+<<<<<<< HEAD
             <div
               id="None_work_hidden"
               style="display: none;"
               className="select-a-group-container18"
             >
+=======
+            <div id="None_work_hidden" className="select-a-group-container18">
+>>>>>>> 76e47d6 (Updated navigation links)
               <span className="select-a-group-text24">
                 <span>
                   Let me know what might work for you. I can&apos;t guarantee
@@ -181,6 +185,7 @@ const SelectAGroup = (props) => {
           </div>
           <div>
             <div className="select-a-group-container20">
+<<<<<<< HEAD
               <Script
                 html={`<script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -198,6 +203,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 `}
               ></Script>
+=======
+              <React.Fragment>
+                <React.Fragment>
+                  <Script>{`
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select the hidden input field
+    const hiddenInput = document.getElementById("selected_group")
+
+    // Select ONE button (Group-Image1 for testing)
+    document
+      .getElementById("Group-Image1")
+      .addEventListener("click", function () {
+        hiddenInput.value = "Tuesday 6pm" // Change this to match the actual group name
+      })
+  })
+`}</Script>
+                </React.Fragment>
+              </React.Fragment>
+>>>>>>> 76e47d6 (Updated navigation links)
             </div>
           </div>
           <input
@@ -210,6 +234,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </form>
         <div>
           <div className="select-a-group-container22">
+<<<<<<< HEAD
             <Script
               html={`<script>
 console.log("Testing: Code Embed is running!");
@@ -241,6 +266,20 @@ setTimeout(function () {
 
 `}
             ></Script>
+=======
+            <React.Fragment>
+              <React.Fragment>
+                <Script>{`
+  console.log("Testing: Code Embed is running!")
+
+  setTimeout(function () {
+    var allInputs = document.getElementsByTagName("input")
+    console.log("All input elements after delay:", allInputs)
+  }, 5000) // 5-second delay
+`}</Script>
+              </React.Fragment>
+            </React.Fragment>
+>>>>>>> 76e47d6 (Updated navigation links)
           </div>
         </div>
       </div>
@@ -444,7 +483,11 @@ setTimeout(function () {
           }
           .select-a-group-container18 {
             flex: 0 0 auto;
+<<<<<<< HEAD
             display: flex;
+=======
+            display: none;
+>>>>>>> 76e47d6 (Updated navigation links)
             align-items: center;
             flex-direction: column;
             justify-content: center;
